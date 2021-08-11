@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+<title>Form Biodata</title>
+</head>
+<body>
+    <form>
+        <table border="0">
+    <tr>     
+       <td><label for ="nama">Nama  </label></td> 
+       <td>:<input type="text" size="35" name="nama" id="nama"/></br></br></td>
+    </tr> 
+    <tr>      
+      <td><label for ="ttl"> Tempat Tanggal Lahir </label></td>
+      <td>:<input type="text" size="35" name="nama" id="nama"/></br><br></td>
+    </tr>  
+    <tr>   
+      <td><label for="Jurusan">Jurusan</label></td>  
+      <td>:<select name="Jurusan" id="Jurusan">  
+        <option value="">Pilih Jurusan</option>
+        <option value="Teknik Kompuer dan Jaringan">Teknik Kompuer dan Jaringan</option>
+        <option value="Rekayasa Perangkat Lunak">Rekayasa Perangkat Lunak</option>
+        <option value="Teknik Instalasi Tenaga Listrik">Teknik Instalasi Tenaga Listrik</option>
+        <option value="Tata Boga">Tata Boga</option>
+        <option value="Kecantikan">Kecantikan</option>
+        </select></br><br></td>
+    </tr> 
+    <tr>  
+      <td><label for="msg"> Alamat </label><br></td>  
+       <td>:<textarea name="msg" cols="20" rows="4"></textarea></br><br></td> 
+    </tr>      
+    <tr> <td>                 Jenis Kelamin </td>   
+       <td>:<input type="radio" name="jkl" id="pria" value="pria">
+        <label for="jkl">Pria</label>
+        <input type="radio" name="jkl" id="wanita" value="wanita">
+        <label for="jkl">Wanita</label> <br><br></td>
+    </tr>
+    <tr>
+      <td><label for="agama">Agama</label></td>  
+      <td>:<select name="agama" id="agama">
+        <option value="">Pilih Agama :</option>
+        <option value="Islam">Islam</option>
+        <option value="Kristen">Kristen</option>
+        <option value="katolik">Katolik</option>
+        <option value="Hindu">Hindu</option>
+        <option value="Konghucu">Konghucu</option>
+        </select><br><br></td>  
+    </tr>
+    <tr>
+      <td><label for ="notlp">No Telepon  </label></td>  
+      <td>:<input type="text" size="35" name="notlp" id="notlp"/></br><br></td>  
+    </tr>
+    <tr>
+        <td>              Hoby </td>      
+      <td>:<input type="checkbox" name="hoby []" id="volly" value="volly"/>
+        <label for="volly">Volly</label>
+        <input type="checkbox" name="hoby []" id="berenang" value="berenang"/>
+        <label for="berenang">Berenang</label>
+        <input type="checkbox" name="hoby []" id="tenis" value="tenis"/>
+        <label for="tenis">Tenis</label></td>  
+    </tr>
+    </table>
+</form>
+</body>
+</html>
